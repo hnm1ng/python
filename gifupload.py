@@ -5,13 +5,8 @@ header = {
     'User-Agent': "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"
 }
 logindata = {
-<<<<<<< HEAD
-    'username':"[]",       #用户名
-    'password':"zsl2234"   #密码
-=======
     'username':"",  #用户名
     'password':""   #密码
->>>>>>> temp
 }
 sign = {
     'sign':"0"
