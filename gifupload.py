@@ -13,7 +13,9 @@ sign = {
 }
 logindata['username'] = input("用户名:\n	")
 logindata['password'] = input("密码:\n	")
-filepath = input("文件路径( C:/11.gif ):\n	")
+filepath = input("文件路径(默认 C:/11.gif ):\n	")
+if(filepath == ""):
+	filepath = "C:/11.gif";
 files = {
 	'filename':(None,''),
 	'uploadNum':(None,'1'),
