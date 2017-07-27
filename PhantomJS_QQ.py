@@ -20,7 +20,7 @@ def get_shuoshuo(qq):
         driver.find_element_by_id('u').clear()#选择用户名框
         driver.find_element_by_id('u').send_keys('64438648')
         driver.find_element_by_id('p').clear()
-        driver.find_element_by_id('p').send_keys('zsl960225')
+        driver.find_element_by_id('p').send_keys('')
         driver.find_element_by_id('login_button').click()
         time.sleep(3)
     driver.implicitly_wait(3)
